@@ -5,4 +5,4 @@ class Add:
         print(val2)
 
     def add_one(self):
-        return self.val1-self.val2    
+        return self.val1+self.val2    
