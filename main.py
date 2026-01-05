@@ -7,3 +7,8 @@ class Add:
 
     def add_one(self):
         return self.val1+self.val2
+
+    def sub_one(self):
+        return self.val1-self.val2
+
+
