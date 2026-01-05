@@ -13,6 +13,9 @@ class Add:
     
     def mul_one(self):
         return self.val1*self.val2
+    
+    def div_one(self):
+        return self.val1%self.val2
 
         
 

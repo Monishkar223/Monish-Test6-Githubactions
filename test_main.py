@@ -10,3 +10,7 @@ class TestAdd:
     def test_mul_class(self):
         obj = Add(6, 2)
         assert obj.mul_one() == 12
+    
+    def test_div_class(self):
+        obj = Add(6, 2)
+        assert obj.div_one() == 3
