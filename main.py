@@ -10,5 +10,10 @@ class Add:
 
     def sub_one(self):
         return self.val1-self.val2
+    
+    def mul_one(self):
+        return self.val1*self.val2
+
+        
 
 
