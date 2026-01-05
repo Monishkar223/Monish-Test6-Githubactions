@@ -15,7 +15,7 @@ class Add:
         return self.val1*self.val2
     
     def div_one(self):
-        return self.val1%self.val2
+        return self.val1/self.val2
 
         
 
