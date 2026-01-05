@@ -3,9 +3,12 @@ name: Python Tests
 on:
   push:
     branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
 
 jobs:
-  test:
+  python-tests:
+    name: python-tests
     runs-on: ubuntu-latest
 
     steps:
